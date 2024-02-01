@@ -1,0 +1,58 @@
+PUERTOS NO PREFERIBLES DE TOCAR			
+PB5
+PB6
+PB7
+PC6
+PD0
+PD1
+
+
+Puertos Preferibles a usar (El asterisco representa que ya esta en uso)
+
+A0 - PC0 *	D12 - PB4 *
+A1 - PC1 *	D11 - PB3 *
+A2 - PC2 *	D10 - PB2 *
+A3 - PC3 *	D9 -  PB1 *
+A4 - PC4 *	D8 -  PB0 *
+A5 - PC5 *	D7 -  PD7 *
+		D6 -  PD6 *
+		D5 -  PD5 *
+		D4 -  PD4 *
+		D3 -  PD3 *
+		D2 -  PD2 *
+		
+
+
+ENTRADA:
+A0 - PC0 * INCREMENTAR 1 A VECTOR1
+A1 - PC1 * DECREMENTAR 1 A VECTOR1
+A2 - PC2 * INCREMENTAR 1 A VECTOR2
+A3 - PC3 * INCREMENTAR 1 A VECTOR2
+A4 - PC4 * RESULTADO
+
+Salida:
+Verde:   RESULTADO
+A5  - PC5
+D8 - PB0
+D7 - PD7 
+D6 - PD6
+
+Azul:  PRIMER NUMERO
+D12 - PB4
+D11 - PB3 
+D10 - PB2
+D9  - PB1
+
+Amarillo: SEGUNDO NUMERO
+D2 - PD2
+D3 - PD3
+D4 - PD4
+D5 - PD5
+
+ROJO
+PB5 - LED INTEGRADA
+
+PUERTO B: 0b0011_1111
+PUERTO C: 0b0010_0000
+PUERTO D: 0b1111_1100
+	
